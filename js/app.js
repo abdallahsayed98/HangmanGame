@@ -11,6 +11,8 @@ const app=()=>{
             user = new HangMan(data);
             remain.innerText=8;
             score.innerText=0;
+            img.src='./img/hang.jpg';
+            img.alt="Game"
             stat.innerText=user.gameStatus;
             word.innerHTML = `<h4> ${user.empty} </h4>`
             //console.log(h1)
